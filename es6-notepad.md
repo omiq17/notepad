@@ -1,9 +1,10 @@
 # ES6 Notepad
 Important notes on ES6 fearures.
 
-## var
+## var, let & const dilemma
+### var
 Js var is **hoisted**. 
-*Examples where var creates problems:
+*Examples where var creates problems*:
 
 	function counter () {
         for(var i = 0; i<3; i++) {
@@ -43,10 +44,10 @@ Js var is **hoisted**.
     :: 2
     :: after loop 3
     
-## let
+### let
 let is block scoped and only going to accessible within the block.
 
-## const
+### const
 just like let except that we cannot change it. More specifically, you cannot reassign it. So, it is immutable.
 
 	const x = { y : 5 }
