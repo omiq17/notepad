@@ -7,29 +7,29 @@ Js var is **hoisted**.
 *Examples where var creates problems*:
 
 	function counter () {
-        for(var i = 0; i<3; i++) {
-            console.log(i); 
-        }
-         console.log("after loop", i)
-    }
-   	counter()
+	    for(var i = 0; i<3; i++) {
+	        console.log(i); 
+	    }
+	     console.log("after loop", i)
+	}
+	counter()
 	:: 0
-    :: 1
-    :: 2
-    :: after loop 3
+	:: 1
+	:: 2
+	:: after loop 3
+	
+	(function () {
+	    for(var i = 0; i<3; i++) {
+	        console.log(i); 
+	    }
+	}
+	 )()
+	console.log("after loop", i)
+	:: 0
+	:: 1
+	:: 2
+	:: Uncaught ReferenceError: i is not defined
 
-    (function () {
-        for(var i = 0; i<3; i++) {
-            console.log(i); 
-        }
-    }
-     )()
-    console.log("after loop", i)
-    :: 0
-    :: 1
-    :: 2
-    :: Uncaught ReferenceError: i is not defined
-    
 *An horrible example:*
     
     (function () {
@@ -43,7 +43,7 @@ Js var is **hoisted**.
     :: 1
     :: 2
     :: after loop 3
-    
+
 ### let
 let is block scoped and only going to accessible within the block.
 
@@ -51,12 +51,12 @@ let is block scoped and only going to accessible within the block.
 just like let except that we cannot change it. More specifically, you cannot reassign it. So, it is immutable.
 
 	const x = { y : 5 }
-    :: undefined
-    x.y = 7
-    :: 7
-    const x = { z : 7 }
-    :: Uncaught SyntaxError: Identifier 'x' has already been declared
-    
+	:: undefined
+	x.y = 7
+	:: 7
+	const x = { z : 7 }
+	:: Uncaught SyntaxError: Identifier 'x' has already been declared
+
 ## Arrow Function 
 Sorter form of the regular function or a shorter function syntax. One side effect of the arrow function is they can be named.
 It allows us to make function:
@@ -87,20 +87,20 @@ It allows us to make function:
         .reduce(function(prev, value) {
           return (prev || 0) + value
         })
-        
+  
     To this:
-    
+  
        const totalDamageOnDorkman = dragonEvents
       .filter(e => e.type === 'attack')
       .filter(e => e.target === 'player-dorkman')
       .map(e => e.value)
       .reduce((prev, x) => (prev || 0) + x)
-      
+  
 ## Class
 
 **Inheritance**
 *super():* basically used to call constructor of the inherited class
- 
+
      class aussie {
         constructor(captain) {
             this.captain = captain; 
@@ -109,7 +109,7 @@ It allows us to make function:
             return this.captain;
         }
     }
-
+    
     class tigers extends aussie {
         constructor() {
             super("Musfiq"); 
@@ -118,17 +118,17 @@ It allows us to make function:
             return this.captain;
         }
     }
-
+    
     let bd = new tigers()
     bd.callCap()
     :: Musfiq
-    
+
 *Classes has no Private variable which can be seen by this example*
     
     bd.captain = "Smith"
     bd.callcap()
     :: Smith
- 
+
 
 ## Destructuring
 Allows us to break an objects or array into variables.
@@ -137,7 +137,7 @@ Allows us to break an objects or array into variables.
         name: "Mahbub Evan",
         versity: "AIUB" }
     let {name, versity} = evan
-    
+
 
 ## Appendix
 
@@ -159,7 +159,6 @@ Allows us to break an objects or array into variables.
 ## Sources 
 
 Fun Fun Function [https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q]
-
 
 
 
