@@ -49,29 +49,6 @@ Solution with closure:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Sources:
 - w3schools
 - stackoverflow
