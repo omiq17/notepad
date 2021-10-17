@@ -1,6 +1,9 @@
 remote_theme: oinam/oinam-jekyll
-# remote_theme: riggraz/no-style-please
+title: Notepad
 url: https://raqib.me
+footer:
+  custom: true
+  footer_custom: Rakib
 plugins:
   - jekyll-relative-links
 relative_links:

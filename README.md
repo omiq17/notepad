@@ -1,6 +1,4 @@
-# Notepad 
-
-Some important notes during my learning of new technologies.
+All notes:
 
 * docker/
   * [intro](https://raqib.me/notepad/docker/intro)
