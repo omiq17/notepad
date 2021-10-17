@@ -1,5 +1,3 @@
-# Next.js
-
 - Pre-rendering: two froms:
     - Static Generation
         -  Generates HTML on build time

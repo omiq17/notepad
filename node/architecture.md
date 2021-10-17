@@ -1,5 +1,3 @@
-# Node.js
-
 Nodes.js is runtime environment, built on V8 engine, that includes everything we need to execute a program written in JS on server-side.
 
 V8 engine: built on C/C++, by Google, open souce. Converts JS code to machine code using JIT (Just In Time) compiler. 

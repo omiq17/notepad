@@ -1,5 +1,3 @@
-# Python Notepad
-
 Here I note down some of the topics of Python as my learning procedure. You are welcome to find any error and contribute.
 
 # Topics

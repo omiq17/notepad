@@ -1,4 +1,3 @@
-# JS Notepad
 Special notes on Javascript
 
 ## Clousers

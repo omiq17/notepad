@@ -1,5 +1,3 @@
-# Scope
-
 ```js
 if (true) {
   const message = 'Hello';

@@ -1,4 +1,3 @@
-# React Notepad
 Here I note down some topics as my learning procedure of React.
 
 ## Ecosystem

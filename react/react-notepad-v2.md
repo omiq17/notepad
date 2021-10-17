@@ -1,4 +1,3 @@
-# React Notepad Version 2.0
 Another React Notepad with lots of new notes on React. 
 
 ### State 

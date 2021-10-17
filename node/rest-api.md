@@ -1,5 +1,3 @@
-# REST API
-
 - Representational State Transfer Apllication Programming Interface.
 - Rest api is a guideline (rather than a protocol). It uses HTTP protocol and applies some constraints on it.
 - 6 constraints: 
