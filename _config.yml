@@ -1,5 +1,6 @@
 remote_theme: oinam/oinam-jekyll
 # remote_theme: riggraz/no-style-please
+url: https://raqib.me/notepad/
 plugins:
   - jekyll-relative-links
 relative_links:
