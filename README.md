@@ -2,10 +2,20 @@
 
 Some important notes during my learning of new technologies.
 
-### Jekyll Themes
+[Check live](https://raqib.me/notepad/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/omiq17/notepad/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Docker
 
-### Support or Contact
+- [intro](https://raqib.me/notepad/docker/intro)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Git 
+
+- [semantic-versioning](https://raqib.me/notepad/git/semantic-versioning.md)
+
+#### js
+
+- [browser-event-topics.md](https://raqib.me/notepad/js/browser-event-topics.md)
+- [es6-notepad.md](https://raqib.me/notepad/js/es6-notepad.md)
+- [how-js-runs.md](https://raqib.me/notepad/js/how-js-runs.md)
+- [js-notepad.md](https://raqib.me/notepad/js/js-notepad.md)
+- [scope.md](https://raqib.me/notepad/js/es6-notepad.md)
