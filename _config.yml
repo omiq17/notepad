@@ -1,4 +1,4 @@
-remote_theme: remote_theme: oinam/oinam-jekyll
+remote_theme: oinam/oinam-jekyll
 plugins:
   - jekyll-relative-links
 relative_links:
