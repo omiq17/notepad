@@ -1,3 +1,8 @@
+---
+layout: page
+title: How JS Runs
+---
+
 - JS code => V8/SpiderMonkey/Chakra/JavaScriptCore (JS Engine) => Machine code => Output in browser
 - Interpreter: slow process, easy to debug.
 - Compiler: fast process, system crash, hard to debug.
