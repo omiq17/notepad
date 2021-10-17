@@ -1,6 +1,6 @@
 ---
 layout: note
-title: REST API constraints
+title: REST API Constraints
 ---
 
 - Representational State Transfer Apllication Programming Interface.
