@@ -2,7 +2,7 @@
 
 Some important notes during my learning of new technologies.
 
-[Check live](https://raqib.me/notepad/)
+[Check live](https://raqib.me/notepad)
 
 #### Docker
 
@@ -10,12 +10,14 @@ Some important notes during my learning of new technologies.
 
 #### Git 
 
-- [semantic-versioning](https://raqib.me/notepad/git/semantic-versioning.md)
+- [semantic-versioning](https://raqib.me/notepad/git/semantic-versioning)
 
 #### js
 
-- [browser-event-topics.md](https://raqib.me/notepad/js/browser-event-topics.md)
-- [es6-notepad.md](https://raqib.me/notepad/js/es6-notepad.md)
-- [how-js-runs.md](https://raqib.me/notepad/js/how-js-runs.md)
-- [js-notepad.md](https://raqib.me/notepad/js/js-notepad.md)
-- [scope.md](https://raqib.me/notepad/js/es6-notepad.md)
+- [browser-event-topics](https://raqib.me/notepad/js/browser-event-topics)
+- [es6-notepad](https://raqib.me/notepad/js/es6-notepad)
+- [how-js-runs](https://raqib.me/notepad/js/how-js-runs)
+- [js-notepad](https://raqib.me/notepad/js/js-notepad)
+- [scope](https://raqib.me/notepad/js/es6-notepad)
+
+
