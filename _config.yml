@@ -1,20 +1,11 @@
-remote_theme: oinam/oinam-jekyll
 title: Notepad
 url: https://raqib.me
+remote_theme: oinam/oinam-jekyll
+
 footer:
   custom: true
-  footer_custom: Rakib
+  credit: false
+footer_custom: 'An ever Work-in-Progress effort by <a href="https://raqib.me">Rakib</a>.'
+
 plugins:
   - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - CONTRIBUTING.md
-  - README.md
-  - LICENSE.md
-  - COPYING.md
-  - CODE_OF_CONDUCT.md
-  - CONTRIBUTING.md
-  - ISSUE_TEMPLATE.md
-  - PULL_REQUEST_TEMPLATE.md
