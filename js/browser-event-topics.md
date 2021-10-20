@@ -1,3 +1,8 @@
+---
+layout: note
+title: JS browser event related note
+---
+
 **Event Bubbling**
 
 When an event happens on an element, it first runs the handler on it, then on its parent, then all the way up to its root element (HTML).

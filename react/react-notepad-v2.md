@@ -1,3 +1,8 @@
+---
+layout: note
+title: React Note V2
+---
+
 Another React Notepad with lots of new notes on React. 
 
 ### State 

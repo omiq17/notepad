@@ -1,3 +1,8 @@
+---
+layout: note
+title: React Note V1
+---
+
 Here I note down some topics as my learning procedure of React.
 
 ## Ecosystem

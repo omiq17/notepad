@@ -1,3 +1,8 @@
+---
+layout: note
+title: JS Note
+---
+
 Special notes on Javascript
 
 ## Clousers

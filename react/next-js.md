@@ -1,3 +1,8 @@
+---
+layout: note
+title: Next.js Note
+---
+
 - Pre-rendering: two froms:
     - Static Generation
         -  Generates HTML on build time

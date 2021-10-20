@@ -1,3 +1,8 @@
+---
+layout: note
+title: JS Scope
+---
+
 ```js
 if (true) {
   const message = 'Hello';

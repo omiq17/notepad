@@ -1,3 +1,8 @@
+---
+layout: note
+title: ES6 Note
+---
+
 Important notes on ES6 fearures.
 
 ## var, let & const dilemma

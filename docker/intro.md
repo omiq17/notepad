@@ -1,3 +1,8 @@
+---
+layout: note
+title: Introduction to Docker
+---
+
 Docker allows you to package an application with its `environment and all of its dependencies` into a "box", called a **container**.
 
 Usually, a container consists of an application running in a stripped-to-basics version of a Linux operating system. 
