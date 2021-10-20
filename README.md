@@ -14,7 +14,7 @@ All notes:
   * [architecture](https://raqib.me/notepad/node/architecture)
   * [rest-api](https://raqib.me/notepad/node/rest-api)
 * oop/
-  * [oop-bd-v1](https://raqib.me/notepad/oop/oop-bd-v1)
+  * [oop-bn-v1](https://raqib.me/notepad/oop/oop-bn-v1)
 * python/
   * [python-notepad-v1](https://raqib.me/notepad/python/python-notepad-v1)
 * react/
