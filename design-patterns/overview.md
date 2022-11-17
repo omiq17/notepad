@@ -24,7 +24,7 @@ title: Design patterns overview
 - Sometimes we want to restrict the total number of instances that can be created of a particular object.
 - Example: Wifi router is shared by all family members. In this case single wifi connection being consumed by multiple members.
 
-### Structural Patters
+### Structural Patterns
 
 - Ensure that the structure defined for our classes/objects is efficient and flexible so that it can be easily composed with other objects.
 - When we use `extends` or `implements`, we use some form of Structural Design Pattern.
@@ -48,7 +48,7 @@ title: Design patterns overview
 - Like our smartphone, that is made of so many different pieces like a display, battery, microphone, memory unit, camera, and so on.
 - Example: We can implement a Logger module in our User service. Thus User service will have two modules: Auth, Logger.
 
-### Behavioral Patters
+### Behavioral Patterns
 
 - Aim at defining how objects can communicate each other in a flexible way.
 - If we ever user a Publiser/Subscriber model, message queue or UI framework, then we used that pattern.
