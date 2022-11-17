@@ -56,3 +56,7 @@ title: Design patterns overview
   - Push based: Change notification is pushed to subscribers. Like socket.
   - Pull based: Objects keep polling from subscriber to get updates. Like REST APIs.
 - Example: When we follow someone in social media, we except to recieve all of the updates of the publisher. Push based observer pattern is the perfect solution in this case. 
+
+References:
+
+- [https://programmingwithmosh.com/javascript/top-design-patterns-to-master-in-typescript/](https://programmingwithmosh.com/javascript/top-design-patterns-to-master-in-typescript/)
