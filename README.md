@@ -23,4 +23,5 @@ All notes:
   * [react-notepad-v2](https://raqib.me/notepad/react/react-notepad-v2)
 * web-security/
   * [vulnerability](https://raqib.me/notepad/web-security/vulnerability)
-  
+* design-patterns/
+  * [overview](https://raqib.me/notepad/design-patterns/overview)
