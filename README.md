@@ -25,3 +25,6 @@ All notes:
   * [vulnerability](https://raqib.me/notepad/web-security/vulnerability)
 * design-patterns/
   * [overview](https://raqib.me/notepad/design-patterns/overview)
+* aws/
+  * [aws-web-services](https://raqib.me/notepad/aws/aws-web-services)
+  * [cloud-intro](https://raqib.me/notepad/aws/cloud-intro)
