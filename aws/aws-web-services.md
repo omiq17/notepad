@@ -1,4 +1,7 @@
-# AWS Web Services
+---
+layout: note
+title: AWS Web Services
+---
 
 ## AWS Global Infrastucture
 
