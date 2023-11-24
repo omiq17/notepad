@@ -5,25 +5,25 @@ title: Cloud Introduction
 
 ## Evalution of Cloud
 
-### Virtual Machine
+### 1. Virtual Machine
 	- Not a physical machine, exist inside a physical machine.
 	- Lease resources from the mother computer - virtualization.
 	- Communicate with mother computer for any task.
 	- Still exists, mostly used by Data Centers.
 
-### Internet & client-server model
+### 2. Internet & client-server model
 	- It was difficult to communicate/transfer data between two computers.
 	- Tim Berners-Lee invented WWW in 1989.
 	- HTTP Procol invented.
 	- Server-Client models gets popular. Server processes the request and Client sends the request.
 	- Internet and Website idea boomed. Born Amazon, Salesforce. 
 
-### SAAS (Salesforce)
+### 3. SAAS (Salesforce)
 	- Previously user bought CD/DVD from shop, install the software in their own PC and use it.
 	- Why don't we just make that software in Server, provide to user through interner? Publisher maaintain the software in server, fix bugs and upgrade version very easily by this.
 	- Salesforce, in 1999 first launced a web-based CRM.
 
-### IAAS (AWS)
+### 4. IAAS (AWS)
 	- In special events, the website had huge traffics from users. But after the events the traffic gets low, the hardware and resources remains unused most of the time.
 	- Amazon got the idea to rent their unused hardware/infrastucuture to users. 
 	- They introduced EC2 (Elastic Computer Cloud) where coustomer can create their own VM by HTTP request.
@@ -47,9 +47,9 @@ title: Cloud Introduction
 	- Maintaining own data center/CPU is cumbersome hard nowadays.
 	- I can pay only what I have used in Cloud.
 
-### Cloud Computing Technologies
+## Cloud Computing Technologies
 	
-#### Computing
+### 1. Computing
 	1. Virtual Machines
 		- Owe hardwares from mother computer.
 	2. Container
@@ -57,7 +57,7 @@ title: Cloud Introduction
 	3. Serverless Computing
 		- No need OS or container. Just deliver the code. It will run by the provider.
 
-#### Storage
+### 2. Storage
 	1. Object Storage
 		- Store data as object. We have metadata to get details about the object. Based on the details we play, open, read the data. Like audio, video, document, email etc.
 		- Infinately scalable, no such bindings.
@@ -67,7 +67,7 @@ title: Cloud Introduction
 		- When we need to structure data into file/folders.
 		- Noramally used by Network admin/peoples.
 
-#### Database
+### 3. Database
 	- Cloud providers has utilized the open source codes and make their own version of databases. They also maintain/run these using their own hardware. They demand that these are very fast and performant.
 
 	1. Relational DB
@@ -79,7 +79,7 @@ title: Cloud Introduction
 	3. In-memory DB
 		- Redis. In cloud - AWS ElastiCache.
 
-#### Network
+### 4. Network
 	1. Virtual Private Cloud: 
 		- Connect multiple devices by configuting IP/gateway.
 	2. Load Balancing:
@@ -87,7 +87,7 @@ title: Cloud Introduction
 	3. Content Delivery Network:
 		- Setup many (single purpose) server in different continents to serve static data like pdf, image, video etc. 
 
-#### Security
+### 5. Security
 	1. Identity and Access Management:
 		- There will be a Super Admin, who will pay bill, manage subcribsions etc. He can manage the users also.
 		- To manage users and user roles, Super Admin can create multiple groups where each group has a set of roles. Then he can assing user to respective group.
