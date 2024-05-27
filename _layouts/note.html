@@ -1,58 +1,78 @@
 ---
 ---
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>
+      {%- if title -%}{{ title }} {%- elsif page.title -%}{{ page.title }} {%-
+      else -%}{{ site.title }} {%- endif -%}
+    </title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+    />
+    <meta name="robots" content="index,follow" />
 
-  <title>
-    {%- if title -%}{{ title }}
-    {%- elsif page.title -%}{{ page.title }}
-    {%- else -%}{{ site.title }}
-    {%- endif -%}
-  </title>
+    {% if site.styles.inline != false %}
+    <style type="text/css">
+      {% include styles.html %}
+    </style>
+    {% else %}
+    <link
+      rel="stylesheet"
+      href="{{ site.baseurl | prepend: site.url }}/styles.css"
+    />
+    {% endif %} {% include head-custom.html %}
+  </head>
 
-  <meta name="description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="robots" content="index,follow">
+  <body>
+    <main>
+      <article>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 32px 0 8px;
+          "
+        >
+          <a
+            href="{{ site.baseurl | prepend: site.url }}/"
+            style="height: 32px"
+            title="{{ site.title }}"
+          >
+            <img src="https://img.icons8.com/plumpy/32/000000/home.png" />
+          </a>
+          <h3 style="text-align: center; margin: 0">
+            {{ page.title | escape }}
+          </h3>
+          <a
+            href="https://github.com/omiq17/notepad"
+            style="height: 32px"
+            title="GitHub"
+          >
+            <img src="https://img.icons8.com/plumpy/32/000000/star.png" />
+          </a>
+        </div>
+        <hr />
 
-  {% include styles.html %}
-  {% include head-custom.html %}
+        {{ content }} {% if page.update %}
+        <p class="meta-update">Updated on {{ page.update }}.</p>
+        {% endif %}
+      </article>
+    </main>
 
-</head>
+    {% include footer.html %}
 
-<body>
+    <script type="text/javascript">
+      {% include scripts.html %}
+    </script>
 
-  <main>
-    <article>
-      <div style="display: flex; justify-content: space-between; align-items: center; margin: 32px 0 8px;">
-        <a href="{{ site.baseurl | prepend: site.url }}/" style="height: 32px;" title="{{ site.title }}">
-          <img src="https://img.icons8.com/plumpy/32/000000/home.png" />
-        </a>
-        <h3 style="text-align:center; margin: 0;">{{ page.title | escape }}</h3>
-        <a href="https://github.com/omiq17/notepad" style="height: 32px;" title="GitHub">
-          <img src="https://img.icons8.com/plumpy/32/000000/star.png" />
-        </a>
-      </div>
-      <hr />
-
-      {{ content }}
-
-      {% if page.update %}
-      <p class="meta-update">Updated on {{ page.update }}.</p>
-      {% endif %}
-    </article>
-  </main>
-
-  {% include footer.html %}
-
-  <script type="text/javascript">{% include scripts.html %}</script>
-
-  {% include footer-ext.html %}
-
-</body>
-
+    {% include footer-ext.html %}
+  </body>
 </html>
