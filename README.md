@@ -1,3 +1,5 @@
+### This repository is no longer maintained. Checkout the updated version here - https://github.com/omiq17/my-notepad
+
 # notepad
 All notes:
 
